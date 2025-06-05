@@ -16,7 +16,14 @@ int main(void)
 	scanf("%d", &number);
 
 	// Bda lcode dialek men hna, khdem b printf
-
+	if (number % 2 == 0)
+	{
+		printf("PAIR");
+	}
+	else
+	{
+		printf("IMPAIR");
+	}
 
 	
 	return (0);
